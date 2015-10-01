@@ -1,0 +1,52 @@
+controller_manager_ns: ''
+controller_list:
+  - name: nao_dcm/LeftArm_controller
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: true
+    joints:
+      - LShoulderPitch
+      - LShoulderRoll
+      - LElbowYaw
+      - LElbowRoll
+      - LWristYaw
+  - name: nao_dcm/RightArm_controller
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: true
+    joints:
+      - RShoulderPitch
+      - RShoulderRoll
+      - RElbowYaw
+      - RElbowRoll
+      - RWristYaw
+  - name: nao_dcm/Head_controller
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: true
+    joints:
+      - HeadYaw
+      - HeadPitch
+#  - name: nao_dcm/Pelvis_controller
+#    action_ns: follow_joint_trajectory
+#    type: FollowJointTrajectory
+#    default: true
+#    joints:
+#      - HipRoll
+#      - HipPitch
+#      - KneePitch
+  - name: nao_dcm/LeftHand_controller
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: true
+    joints:
+#      - LWristYaw
+      - LHand
+  - name: nao_dcm/RightHand_controller
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: true
+    joints:
+#      - RWristYaw
+      - RHand
+
