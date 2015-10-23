@@ -66,6 +66,34 @@
     <virtual_joint name="virtual_odom" type="planar" parent_frame="odom" child_link="base_link" />
     <!--PASSIVE JOINT: Purpose: this element is used to mark joints that are not actuated-->
     <passive_joint name="virtual_odom" />
+    <passive_joint name="LFinger11" />
+    <passive_joint name="LFinger12" />
+    <passive_joint name="LFinger13" />
+    <passive_joint name="LFinger21" />
+    <passive_joint name="LFinger22" />
+    <passive_joint name="LFinger23" />
+    <passive_joint name="LFinger31" />
+    <passive_joint name="LFinger32" />
+    <passive_joint name="LFinger33" />
+    <passive_joint name="LFinger41" />
+    <passive_joint name="LFinger42" />
+    <passive_joint name="LFinger43" />
+    <passive_joint name="LThumb1" />
+    <passive_joint name="LThumb2" />
+    <passive_joint name="RFinger11" />
+    <passive_joint name="RFinger12" />
+    <passive_joint name="RFinger13" />
+    <passive_joint name="RFinger21" />
+    <passive_joint name="RFinger22" />
+    <passive_joint name="RFinger23" />
+    <passive_joint name="RFinger31" />
+    <passive_joint name="RFinger32" />
+    <passive_joint name="RFinger33" />
+    <passive_joint name="RFinger41" />
+    <passive_joint name="RFinger42" />
+    <passive_joint name="RFinger43" />
+    <passive_joint name="RThumb1" />
+    <passive_joint name="RThumb2" />
     <!--DISABLE COLLISIONS: By default it is assumed that any link of the robot could potentially come into collision with any other link in the robot. This tag disables collision checking between a specified pair of links. -->
     <disable_collisions link1="Head" link2="Hip" reason="Never" />
     <disable_collisions link1="Head" link2="LShoulder" reason="Never" />

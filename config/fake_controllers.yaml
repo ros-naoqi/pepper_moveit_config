@@ -15,11 +15,9 @@ controller_list:
       - LWristYaw
   - name: fake_right_hand_controller
     joints:
-      - RWristYaw
       - RHand
   - name: fake_left_hand_controller
     joints:
-      - LWristYaw
       - LHand
   - name: fake_base_controller
     joints:
