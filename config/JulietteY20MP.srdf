@@ -15,6 +15,10 @@
     <group name="left_arm">
         <chain base_link="torso" tip_link="l_wrist" />
     </group>
+    <group name="both_arms">
+      <group name="left_arm" />
+      <group name="right_arm" />
+    </group>
     <group name="right_hand">
         <link name="RFinger11_link" />
         <link name="RFinger12_link" />
