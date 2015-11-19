@@ -7,6 +7,7 @@
   <arg name="debug" default="false" />
 
   <arg name="config_filename" default="$(find pepper_moveit_config)/launch/moveit.rviz"/>
+  <arg name="use_rviz" default="true"/>  <!-- when no RViz gui needed, turn this false -->
 
   <!-- Load the URDF, SRDF and other .yaml configuration files on the param server -->
   <include file="$(find pepper_moveit_config)/launch/planning_context.launch">
@@ -35,11 +36,13 @@
   </include>
 
   <!-- Run Rviz and load the default config to see the state of the move_group node -->
-  <include file="$(find pepper_moveit_config)/launch/moveit_rviz.launch">
-    <arg name="config" value="true"/>
-    <arg name="config_filename" value="$(arg config_filename)"/>
-    <arg name="debug" value="$(arg debug)"/>
-  </include>
+  <group if="$(arg use_rviz)">
+    <include file="$(find pepper_moveit_config)/launch/moveit_rviz.launch">
+      <arg name="config" value="true"/>
+      <arg name="config_filename" value="$(arg config_filename)"/>
+      <arg name="debug" value="$(arg debug)"/>
+    </include>
+  </group>
 
   <!-- If database loading was enabled, start mongodb as well -->
   <include file="$(find pepper_moveit_config)/launch/default_warehouse_db.launch" if="$(arg db)"/>
