@@ -1,0 +1,15 @@
+<launch>
+  <include file="$(find pepper_moveit_config)/launch/demo.launch">
+<!--     <arg name="use_rviz" value="false" />  RViz/GUI is not needed for the tests --> 
+  </include>
+  
+  <!-- Check if MoveGroup is running -->
+  <arg name="test_movegroup_hz" value="test_pepper_movegroup_hz" />
+  <test pkg="rostest" type="hztest" test-name="$(arg test_movegroup_hz)" name="test_pepper_movegroup_hz" time-limit="120">
+    <param name="topic" value="/move_group/status" />
+    <param name="hz" value="5.0" />
+    <param name="hzerror" value="0.75" />
+    <param name="test_duration" value="5.0" />
+    <param name="wait_time" value="60.0" />
+  </test>
+</launch>
