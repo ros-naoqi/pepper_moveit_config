@@ -1,6 +1,6 @@
 controller_manager_ns: ''
 controller_list:
-  - name: nao_dcm/LeftArm_controller
+  - name: pepper_dcm/LeftArm_controller
     action_ns: follow_joint_trajectory
     type: FollowJointTrajectory
     default: true
@@ -10,7 +10,7 @@ controller_list:
       - LElbowYaw
       - LElbowRoll
       - LWristYaw
-  - name: nao_dcm/RightArm_controller
+  - name: pepper_dcm/RightArm_controller
     action_ns: follow_joint_trajectory
     type: FollowJointTrajectory
     default: true
@@ -20,14 +20,14 @@ controller_list:
       - RElbowYaw
       - RElbowRoll
       - RWristYaw
-  - name: nao_dcm/Head_controller
+  - name: pepper_dcm/Head_controller
     action_ns: follow_joint_trajectory
     type: FollowJointTrajectory
     default: true
     joints:
       - HeadYaw
       - HeadPitch
-#  - name: nao_dcm/Pelvis_controller
+#  - name: pepper_dcm/Pelvis_controller
 #    action_ns: follow_joint_trajectory
 #    type: FollowJointTrajectory
 #    default: true
@@ -35,14 +35,14 @@ controller_list:
 #      - HipRoll
 #      - HipPitch
 #      - KneePitch
-  - name: nao_dcm/LeftHand_controller
+  - name: pepper_dcm/LeftHand_controller
     action_ns: follow_joint_trajectory
     type: FollowJointTrajectory
     default: true
     joints:
 #      - LWristYaw
       - LHand
-  - name: nao_dcm/RightHand_controller
+  - name: pepper_dcm/RightHand_controller
     action_ns: follow_joint_trajectory
     type: FollowJointTrajectory
     default: true
