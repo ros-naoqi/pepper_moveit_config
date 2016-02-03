@@ -2,6 +2,11 @@
 Changelog for package pepper_moveit_config
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* remove pepper_meshes from dependency because license not displayed on buildfarm
+* Contributors: Mikael Arguedas
+
 0.0.3 (2016-02-03)
 ------------------
 * update dependency list
