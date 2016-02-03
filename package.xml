@@ -14,12 +14,14 @@
   <url type="repository">https://github.com/ros-naoqi/pepper_moveit_config</url>
 
   <run_depend>pepper_description</run_depend>
-    
+  <run_depend>pepper_meshes</run_depend>
   <run_depend>moveit_ros_move_group</run_depend>
   <run_depend>moveit_planners_ompl</run_depend>
   <run_depend>moveit_ros_visualization</run_depend>
   <run_depend>joint_state_publisher</run_depend>
   <run_depend>robot_state_publisher</run_depend>
+  <run_depend>moveit_fake_controller_manager</run_depend>
+  <run_depend>moveit_simple_controller_manager</run_depend>
   <run_depend>xacro</run_depend>
 
   <buildtool_depend>catkin</buildtool_depend>
