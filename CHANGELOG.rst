@@ -2,8 +2,8 @@
 Changelog for package pepper_moveit_config
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.3 (2016-02-03)
+------------------
 * update dependency list
 * fixing controllers names
 * Merge pull request `#3 <https://github.com/ros-naoqi/pepper_moveit_config/issues/3>`_ from 130s/add/botharms
