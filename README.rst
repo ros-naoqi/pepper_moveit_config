@@ -28,6 +28,11 @@ For a standalone execution :
 
     roslaunch pepper_moveit_config demo.launch
 
+Once launching the demo, you should see Pepper in MoveIt! GUI like this: 
+
+.. image:: tuto/moveit_launch.png
+   :width: 100%
+
 3 Use Moveit:
 =============
 RVIZ has been open: you can see that a MotionPlanning plugin has been launched.
