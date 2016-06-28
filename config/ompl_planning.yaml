@@ -65,7 +65,7 @@ right_arm:
     - TRRTkConfigDefault
     - PRMkConfigDefault
     - PRMstarkConfigDefault
-  projection_evaluator: joints(RWristYaw)
+  projection_evaluator: joints(RShoulderPitch,RShoulderRoll)
   longest_valid_segment_fraction: 0.05
 left_arm:
   planner_configs:
@@ -80,7 +80,7 @@ left_arm:
     - TRRTkConfigDefault
     - PRMkConfigDefault
     - PRMstarkConfigDefault
-  projection_evaluator: joints(LWristYaw)
+  projection_evaluator: joints(LShoulderPitch,LShoulderRoll)
   longest_valid_segment_fraction: 0.05
 both_arms:
   planner_configs:
@@ -95,7 +95,7 @@ both_arms:
     - TRRTkConfigDefault
     - PRMkConfigDefault
     - PRMstarkConfigDefault
-  projection_evaluator: joints(LWristYaw)
+  projection_evaluator: joints(LWristYaw, RWristYaw)
   longest_valid_segment_fraction: 0.05
 right_hand:
   planner_configs:
@@ -111,7 +111,6 @@ right_hand:
     - PRMkConfigDefault
     - PRMstarkConfigDefault
   projection_evaluator: joints(RHand)
-  #RFinger11)
   longest_valid_segment_fraction: 0.05
 left_hand:
   planner_configs:
@@ -127,7 +126,6 @@ left_hand:
     - PRMkConfigDefault
     - PRMstarkConfigDefault
   projection_evaluator: joints(LHand)
-  #LFinger11)
   longest_valid_segment_fraction: 0.05
 base:
   planner_configs:

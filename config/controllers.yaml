@@ -27,26 +27,24 @@ controller_list:
     joints:
       - HeadYaw
       - HeadPitch
-#  - name: pepper_dcm/Pelvis_controller
-#    action_ns: follow_joint_trajectory
-#    type: FollowJointTrajectory
-#    default: true
-#    joints:
-#      - HipRoll
-#      - HipPitch
-#      - KneePitch
+  - name: pepper_dcm/Pelvis_controller
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: true
+    joints:
+      - HipRoll
+      - HipPitch
+      - KneePitch
   - name: pepper_dcm/LeftHand_controller
     action_ns: follow_joint_trajectory
     type: FollowJointTrajectory
     default: true
     joints:
-#      - LWristYaw
       - LHand
   - name: pepper_dcm/RightHand_controller
     action_ns: follow_joint_trajectory
     type: FollowJointTrajectory
     default: true
     joints:
-#      - RWristYaw
       - RHand
 

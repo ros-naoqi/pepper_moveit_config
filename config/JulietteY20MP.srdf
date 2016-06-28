@@ -16,8 +16,8 @@
         <chain base_link="torso" tip_link="l_wrist" />
     </group>
     <group name="both_arms">
-      <group name="left_arm" />
-      <group name="right_arm" />
+        <group name="left_arm" />
+        <group name="right_arm" />
     </group>
     <group name="right_hand">
         <link name="RFinger11_link" />
@@ -33,7 +33,6 @@
         <link name="RFinger42_link" />
         <link name="RFinger43_link" />
         <link name="r_gripper" />
-        <link name="RHandTouchBack_frame" />
         <link name="RThumb1_link" />
         <link name="RThumb2_link" />
         <joint name="RHand" />
@@ -52,7 +51,6 @@
         <link name="LFinger42_link" />
         <link name="LFinger43_link" />
         <link name="l_gripper" />
-        <link name="LHandTouchBack_frame" />
         <link name="LThumb1_link" />
         <link name="LThumb2_link" />
         <joint name="LHand" />
@@ -299,6 +297,7 @@
     <disable_collisions link1="LFinger13_link" link2="LForeArm" reason="Never" />
     <disable_collisions link1="LFinger13_link" link2="LShoulder" reason="Never" />
     <disable_collisions link1="LFinger13_link" link2="LThumb1_link" reason="Never" />
+    <disable_collisions link1="LFinger13_link" link2="LThumb2_link" reason="Never" />
     <disable_collisions link1="LFinger13_link" link2="Neck" reason="Never" />
     <disable_collisions link1="LFinger13_link" link2="RBicep" reason="Never" />
     <disable_collisions link1="LFinger13_link" link2="RElbow" reason="Never" />
@@ -854,6 +853,7 @@
     <disable_collisions link1="RFinger13_link" link2="RForeArm" reason="Never" />
     <disable_collisions link1="RFinger13_link" link2="RShoulder" reason="Never" />
     <disable_collisions link1="RFinger13_link" link2="RThumb1_link" reason="Never" />
+    <disable_collisions link1="RFinger13_link" link2="RThumb2_link" reason="Never" />
     <disable_collisions link1="RFinger13_link" link2="Tibia" reason="Never" />
     <disable_collisions link1="RFinger13_link" link2="WheelB_link" reason="Never" />
     <disable_collisions link1="RFinger13_link" link2="WheelFL_link" reason="Never" />

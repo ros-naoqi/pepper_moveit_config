@@ -33,6 +33,8 @@ Once launching the demo, you should see Pepper in MoveIt! GUI like this:
 .. image:: tuto/moveit_launch.png
    :width: 100%
 
+Check the box Allow Approximate IK Solutions (and optionally, choose the Planning library), and you are ready to control the robot. 
+
 3 Use Moveit:
 =============
 RVIZ has been open: you can see that a MotionPlanning plugin has been launched.

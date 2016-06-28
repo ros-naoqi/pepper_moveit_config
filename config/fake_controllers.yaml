@@ -26,3 +26,8 @@ controller_list:
     joints:
       - HeadYaw
       - HeadPitch
+  - name: fake_pelvis_controller
+    joints:
+      - HipRoll
+      - HipPitch
+      - KneePitch
