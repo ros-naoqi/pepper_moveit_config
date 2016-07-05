@@ -2,6 +2,19 @@
 Changelog for package pepper_moveit_config
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* removing the broken moveit_ros_visualization dependence
+* adding disabled self-collisions and cleaning
+* Merge pull request `#5 <https://github.com/ros-naoqi/pepper_moveit_config/issues/5>`_ from nlyubova/master
+  updating the tutorial
+* updating the tutorial
+* Merge pull request `#4 <https://github.com/ros-naoqi/pepper_moveit_config/issues/4>`_ from nlyubova/master
+  cleaning and launch file rename
+* renaming demo_real.launch to moveit_planner.launch to keep the same naming convention as for Nao
+* cleaning
+* Contributors: Mikael Arguedas, Natalia Lyubova, nlyubova
+
 0.0.4 (2016-02-03)
 ------------------
 * remove pepper_meshes from dependency because license not displayed on buildfarm
