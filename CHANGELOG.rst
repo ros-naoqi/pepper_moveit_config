@@ -2,8 +2,8 @@
 Changelog for package pepper_moveit_config
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.5 (2016-07-05)
+------------------
 * removing the broken moveit_ros_visualization dependence
 * adding disabled self-collisions and cleaning
 * Merge pull request `#5 <https://github.com/ros-naoqi/pepper_moveit_config/issues/5>`_ from nlyubova/master
