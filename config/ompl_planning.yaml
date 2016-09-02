@@ -53,6 +53,7 @@ planner_configs:
   PRMstarkConfigDefault:
     type: geometric::PRMstar
 right_arm:
+  default_planner_config: RRTConnectkConfigDefault 
   planner_configs:
     - SBLkConfigDefault
     - ESTkConfigDefault
@@ -68,6 +69,7 @@ right_arm:
   projection_evaluator: joints(RShoulderPitch,RShoulderRoll)
   longest_valid_segment_fraction: 0.05
 left_arm:
+  default_planner_config: RRTConnectkConfigDefault 
   planner_configs:
     - SBLkConfigDefault
     - ESTkConfigDefault
@@ -83,6 +85,7 @@ left_arm:
   projection_evaluator: joints(LShoulderPitch,LShoulderRoll)
   longest_valid_segment_fraction: 0.05
 both_arms:
+  default_planner_config: RRTConnectkConfigDefault 
   planner_configs:
     - SBLkConfigDefault
     - ESTkConfigDefault
