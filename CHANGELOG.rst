@@ -2,8 +2,8 @@
 Changelog for package pepper_moveit_config
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.6 (2016-09-18)
+------------------
 * updating Octomap config to make compatible with pepper_sensors_py
 * Update README.rst
 * Merge pull request `#6 <https://github.com/ros-naoqi/pepper_moveit_config/issues/6>`_ from 130s/impr/default_safe_planner
