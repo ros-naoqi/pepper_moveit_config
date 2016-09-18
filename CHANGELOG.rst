@@ -2,6 +2,15 @@
 Changelog for package pepper_moveit_config
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* updating Octomap config to make compatible with pepper_sensors_py
+* Update README.rst
+* Merge pull request `#6 <https://github.com/ros-naoqi/pepper_moveit_config/issues/6>`_ from 130s/impr/default_safe_planner
+  Use RRT as default.
+* Use RRT as default.
+* Contributors: Isaac I.Y. Saito, Natalia Lyubova
+
 0.0.5 (2016-07-05)
 ------------------
 * removing the broken moveit_ros_visualization dependence
