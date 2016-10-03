@@ -96,6 +96,9 @@
     <passive_joint name="RFinger43" />
     <passive_joint name="RThumb1" />
     <passive_joint name="RThumb2" />
+    <passive_joint name="WheelFL" />
+    <passive_joint name="WheelFR" />
+    <passive_joint name="WheelB" />
     <!--DISABLE COLLISIONS: By default it is assumed that any link of the robot could potentially come into collision with any other link in the robot. This tag disables collision checking between a specified pair of links. -->
     <disable_collisions link1="Head" link2="Hip" reason="Never" />
     <disable_collisions link1="Head" link2="LShoulder" reason="Never" />
