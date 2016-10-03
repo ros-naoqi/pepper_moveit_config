@@ -98,7 +98,7 @@ both_arms:
     - TRRTkConfigDefault
     - PRMkConfigDefault
     - PRMstarkConfigDefault
-  projection_evaluator: joints(LWristYaw, RWristYaw)
+  projection_evaluator: joints(LShoulderPitch, RShoulderPitch)
   longest_valid_segment_fraction: 0.05
 right_hand:
   planner_configs:
