@@ -10,6 +10,7 @@ controller_list:
       - LElbowYaw
       - LElbowRoll
       - LWristYaw
+      - LGrasp
   - name: pepper_dcm/RightArm_controller
     action_ns: follow_joint_trajectory
     type: FollowJointTrajectory
@@ -20,6 +21,7 @@ controller_list:
       - RElbowYaw
       - RElbowRoll
       - RWristYaw
+      - RGrasp
   - name: pepper_dcm/Head_controller
     action_ns: follow_joint_trajectory
     type: FollowJointTrajectory

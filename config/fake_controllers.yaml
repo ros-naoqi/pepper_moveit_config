@@ -6,6 +6,7 @@ controller_list:
       - RElbowYaw
       - RElbowRoll
       - RWristYaw
+      - RGrasp
   - name: fake_left_arm_controller
     joints:
       - LShoulderPitch
@@ -13,6 +14,7 @@ controller_list:
       - LElbowYaw
       - LElbowRoll
       - LWristYaw
+      - LGrasp
   - name: fake_right_hand_controller
     joints:
       - RHand
