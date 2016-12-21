@@ -2,8 +2,8 @@
 Changelog for package pepper_moveit_config
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.7 (2016-12-21)
+------------------
 * fix allowed_execution_duration_scaling
 * fixing the robot visualization
 * changing the type of virtual_odom
