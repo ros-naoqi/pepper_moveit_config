@@ -2,6 +2,15 @@
 Changelog for package pepper_moveit_config
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* fix allowed_execution_duration_scaling
+* fixing the robot visualization
+* changing the type of virtual_odom
+* fixing both arms
+* adding wheels as passive joints
+* Contributors: Natalia Lyubova
+
 0.0.6 (2016-09-18)
 ------------------
 * updating Octomap config to make compatible with pepper_sensors_py
