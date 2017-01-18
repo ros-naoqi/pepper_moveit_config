@@ -2,6 +2,15 @@
 Changelog for package pepper_moveit_config
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge pull request `#9 <https://github.com/ros-naoqi/pepper_moveit_config/issues/9>`_ from ros-naoqi/fix_warnings
+  Fix deprecated warnings
+* put parameters in proper namespace
+* use action rather than deprecated service. Use spaces instead of tabs
+* fix deprecated xacro call
+* Contributors: Mikael Arguedas, Natalia Lyubova
+
 0.0.7 (2016-12-21)
 ------------------
 * fix allowed_execution_duration_scaling
