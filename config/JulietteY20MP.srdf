@@ -10,10 +10,10 @@
     <!--CHAINS: When a chain is specified, all the links along the chain (including endpoints) are included in the group. Additionally, all the joints that are parents to included links are also included. This means that joints along the chain and the parent joint of the base link are included in the group-->
     <!--SUBGROUPS: Groups can also be formed by referencing to already defined group names-->
     <group name="right_arm">
-        <chain base_link="torso" tip_link="r_wrist" />
+        <chain base_link="torso" tip_link="r_grasp_link" />
     </group>
     <group name="left_arm">
-        <chain base_link="torso" tip_link="l_wrist" />
+        <chain base_link="torso" tip_link="l_grasp_link" />
     </group>
     <group name="both_arms">
         <group name="left_arm" />
@@ -62,8 +62,8 @@
         <chain base_link="torso" tip_link="Head" />
     </group>
     <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
-    <end_effector name="left_eef" parent_link="l_wrist" group="left_hand" />
-    <end_effector name="right_eef" parent_link="r_wrist" group="right_hand" />
+    <end_effector name="left_eef" parent_link="l_grasp_link" group="left_hand" />
+    <end_effector name="right_eef" parent_link="r_grasp_link" group="right_hand" />
     <!--VIRTUAL JOINT: Purpose: this element defines a virtual joint between a robot link and an external frame of reference (considered fixed with respect to the robot)-->
     <virtual_joint name="virtual_odom" type="floating" parent_frame="odom" child_link="base_link" />
     <!--PASSIVE JOINT: Purpose: this element is used to mark joints that are not actuated-->
