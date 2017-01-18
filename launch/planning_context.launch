@@ -7,7 +7,7 @@
   <arg name="version" default="1.0"/>
 
   <!-- Load universal robot description format (URDF) -->
-  <param if="$(arg load_robot_description)" name="$(arg robot_description)" command="$(find xacro)/xacro.py '$(find pepper_description)/urdf/pepper$(arg version)_generated_urdf/pepper_robot.xacro'"/>
+  <param if="$(arg load_robot_description)" name="$(arg robot_description)" command="$(find xacro)/xacro --inorder '$(find pepper_description)/urdf/pepper$(arg version)_generated_urdf/pepper_robot.xacro'"/>
   <!-- The semantic description that corresponds to the URDF -->
   <param name="$(arg robot_description)_semantic" textfile="$(find pepper_moveit_config)/config/JulietteY20MP.srdf" />
   
