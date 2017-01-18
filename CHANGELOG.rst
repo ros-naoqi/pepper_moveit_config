@@ -2,8 +2,8 @@
 Changelog for package pepper_moveit_config
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.8 (2017-01-18)
+------------------
 * Merge pull request `#9 <https://github.com/ros-naoqi/pepper_moveit_config/issues/9>`_ from ros-naoqi/fix_warnings
   Fix deprecated warnings
 * put parameters in proper namespace
